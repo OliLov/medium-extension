@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   updateTimeSpent();
-  setInterval(updateTimeSpent(), 1000);
+  setInterval(updateTimeSpent, 1000);
 });
 
 function updateTimeSpent() {

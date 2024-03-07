@@ -9,5 +9,10 @@
   "permissions": ["activeTab", "storage"],
   "background": {
     "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "images/story-time-16.png",
+    "48": "images/story-time-48.png",
+    "128": "images/story-time-128.png"
   }
 }
